@@ -2,6 +2,7 @@ body{
   background-color: rgb(62, 62, 62);
   color: white;
   font-family: fantasy;
+  user-select: none;
 }
 
 .main-todo{
@@ -25,7 +26,14 @@ h1{
   width: 20rem;
   border-color: slategrey;
   box-shadow: 4px 3px rgb(253, 11, 253);
-  text-decoration: none;
+  border-style: solid;
+  padding-left: 5px;
+}
+
+.input-field:focus{
+  border-style: none;
+  outline: none;
+  padding-left: 5px;
 }
 
 .submit-btn{
@@ -35,14 +43,14 @@ h1{
   width: 3rem;
   background-color: rgb(253, 11, 253);
   color: white;
-  
+  border-style: solid;
   transition: 0.42s ease-in-out;
 }
 
 .submit-btn:hover{
   border-style: solid;
   border-radius: 11.0px;
-  text-shadow: 4px 2px rgb(255, 87, 241);
+  text-shadow: 2px 2px rgb(255, 87, 241);
   background-color: rgba(255, 33, 251, 0.751) ;
 }
 
@@ -74,84 +82,13 @@ h1{
   letter-spacing: 1px;
   margin-bottom: 8px;
   font-size: 1.25789rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 13rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon1:hover{
+  color: rgb(255, 144, 248);
+}
 

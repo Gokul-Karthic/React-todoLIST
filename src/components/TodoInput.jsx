@@ -1,8 +1,6 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 const TodoInput = (props) => {
-
     const [inputText, setInputText] = useState("")
 
     return (
@@ -14,19 +12,19 @@ const TodoInput = (props) => {
                  value={inputText}
                  type='text' 
                  placeholder='Enter Task'
-                 onChange={e =>{    
+                 onChange={e => {    
                     setInputText(e.target.value)
                  }}/>
                 <button
-                 onClick={()=>{
+                 onClick={() => {
                     props.addList(inputText)
                     setInputText("")
                  }} 
                  className='submit-btn'>+</button>
             </div>
-
         </div>
     )
 }
 
 export default TodoInput
+
