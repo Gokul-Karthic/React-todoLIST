@@ -1,0 +1,157 @@
+body{
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-family: fantasy;
+}
+
+.main-todo{
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h1{
+  text-shadow: 4px 3px rgb(253, 11, 253);
+}
+
+.input-tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field{
+  border-radius: 10px;
+  height: 1.7rem;
+  width: 20rem;
+  border-color: slategrey;
+  box-shadow: 4px 3px rgb(253, 11, 253);
+  text-decoration: none;
+}
+
+.submit-btn{
+  margin-left: 2rem;
+  border-radius: 7px;
+  font-size: 1.7rem;
+  width: 3rem;
+  background-color: rgb(253, 11, 253);
+  color: white;
+  
+  transition: 0.42s ease-in-out;
+}
+
+.submit-btn:hover{
+  border-style: solid;
+  border-radius: 11.0px;
+  text-shadow: 4px 2px rgb(255, 87, 241);
+  background-color: rgba(255, 33, 251, 0.751) ;
+}
+
+.l-itemDiv{
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-itemDiv{
+  background-color: rgb(255, 87, 241);
+  width: 25rem;
+  height: 25rem;
+  max-height: 30rem;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+
+.two-itemDiv li{
+  background-color: rgb(126, 124, 121);
+  box-shadow: 4px 3px rgb(244, 241, 241);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-family: fantasy;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  font-size: 1.25789rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

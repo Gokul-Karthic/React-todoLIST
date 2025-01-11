@@ -1,0 +1,17 @@
+.NameTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 30, 221);
+    text-shadow: 4px 3px rgb(70, 68, 68);
+    height: 3.1rem;
+    width: 27rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
