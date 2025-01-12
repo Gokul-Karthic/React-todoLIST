@@ -5,9 +5,11 @@
 }
 
 .Name{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
     background-color: rgb(255, 30, 221);
-    text-shadow: 4px 3px rgb(70, 68, 68);
+    
     height: 3.1rem;
     width: 27rem;
     border-radius: 7px;

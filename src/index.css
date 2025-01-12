@@ -1,7 +1,9 @@
 body{
   background-color: rgb(62, 62, 62);
   color: white;
-  font-family: fantasy;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
   user-select: none;
 }
 
@@ -94,7 +96,9 @@ h1{
   align-items: center;
   padding: 5px 5px;
   border-radius: 10px;
-  font-family: fantasy;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 1px;
   margin-bottom: 8px;
   font-size: 1.25789rem;
